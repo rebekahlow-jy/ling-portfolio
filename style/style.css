@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca|Oswald');
+
+html, body {
+  height: 100%;
+  width: 100%;
+	background-color: #13a89e;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+body {
+	color: #fefefd;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #13a89e;
+}
+
+.side-bar-wrapper {
+	background-color: #5dcdc5;
+	position: absolute;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.side-bar-container {
+	text-align: center;
+	position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+}
+
+.side-bar-name {
+	font-family: 'Oswald', sans-serif;
+	font-size: 8.5rem;
+	line-height: 90%;
+}
+
+.side-bar-contact {
+	font-family: 'Fresca', sans-serif;
+	font-size: 2rem;
+	line-height: 90%;
+	margin-top: 5rem;
+	color: #175450;
+}
+
+.main-content-page {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.misc-desk-container,
+.posters-games-container {
+	height: 100%;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.misc-image {
+	height: 15vh;
+	margin-top: 3.5rem;
+}
+
+.desk-apps-container {
+	height: 50vh;
+	margin-top: 15rem;
+	position: relative;
+}
+
+.desk-image {
+	height: 60vh;
+	vertical-align: bottom;
+}
+
+.apps-container {
+	top: 5%;
+	left: 17.5%;
+	position: absolute;
+	vertical-align: bottom;
+}
+
+#apps-button {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+
+.apps-image {
+	height: 20vh;
+}
+
+.posters-image {
+	height: 30vh;
+	margin-top: 5rem;
+}
+
+.games-image {
+	height: 30vh;
+	margin-top: 10rem;
+}
