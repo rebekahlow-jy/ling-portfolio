@@ -2,4 +2,4 @@
 
 Simple HTML/CSS website created for my awesome friend, based on her design!
 
-![]("http://imgur.com/a/meahR" "Preview")
+Demo: https://rebekahlow-jy.github.io/ling-portfolio/
